@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container nav {
+    height: 100px;
+    background-color: lightpink;
+    margin-bottom: 10px;
+}
+
+header .container section {
+    height: 600px;
+    background-color: lightcoral;
+    margin: 10px 0px;
+}
+
+main .container section {
+    height: 80px;
+    background-color: lightblue;
+}
+
+main .container aside {
+    width: 30%;
+    height: 400px;
+    background-color: lightskyblue;
+    border: 1px solid;
+    padding: 10px 5px;
+}
+
+main .container article {
+    width: 40%;
+    height: 400px;
+    background-color: lightskyblue;
+    padding: 10px 5px;
+}
+
+footer .container {
+    height: 200px;
+    background-color: violet;
+    margin-top: 5px;
+}
+/* Classi */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
